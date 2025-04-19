@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm lapis! - Drawing Enthusiast</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Comic+Neue:wght@400;700&display=swap');
+        
+        :root {
+            --primary: #FF6B8B;
+            --secondary: #6B8BFF;
+            --accent: #FFB347;
+            --bg: #FFF9FB;
+            --card: #FFFFFF;
+            --text: #333344;
+            --text-light: #666677;
+        }
+        
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            background-color: var(--card);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 600;
+            font-family: 'Comic Neue', cursive;
+        }
+        
+        .tagline {
+            text-align: center;
+            color: var(--text-light);
+            margin-bottom: 30px;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
+        
+        .text-box {
+            background-color: var(--card);
+            border-radius: 12px;
+            padding: 25px;
+            border-left: 4px solid var(--primary);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .text-box p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+        
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .interest-tag {
+            background-color: #F0F4FF;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+            color: var(--text);
+            border: 1px solid #E0E4FF;
+        }
+        
+        .social-links {
+            margin-top: 25px;
+        }
+        
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            background-color: rgba(255, 107, 139, 0.1);
+        }
+        
+        .social-link:hover {
+            background-color: rgba(255, 107, 139, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: var(--text-light);
+            border-top: 1px solid #EEE;
+            padding-top: 20px;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        .footer .social-link {
+            font-size: 0.95em;
+        }
+        
+        .highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .text-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ I'm lapis! ✨</h1>
+        <p class="tagline">Digital Artist • Animator • Content Creator • Cookie Run Kingdom Fan</p>
+        
+        <div class="main-content">
+            <div class="text-box">
+                <p><span class="emoji">👋</span> <span class="highlight">Hihiii!]</span> One of the 3 sillies!!!</p>
+                
+                <p><span class="emoji">❤️</span> I play/watch: 
+                    <span class="highlight">Murder Drones</span>, 
+                    <span class="highlight">object shows</span>, 
+                    <span class="highlight">Regretavator</span>, 
+                    <span class="highlight">Superstarfish</span>, 
+                    <span class="highlight">Patapon</span>, 
+                    <span class="highlight">Gravity Falls</span>, 
+                    and much more!!
+                </p>
+                
+                <p><span class="emoji">🎨</span> I spend my time: 
+                    <span class="highlight">drawing</span>, 
+                    <span class="highlight">animating</span>, 
+                    <span class="highlight">playing games</span>, 
+                    and <span class="highlight">playing piano</span>! 
+                    (I'm kinda slow :,3)
+                </p>
+                
+                <div class="interests">
+    <div class="interest-tag">🎨 Digital Art</div>
+    <div class="interest-tag">📽️ Animation</div>
+    <div class="interest-tag">🖌️ Content Creation</div>
+    <div class="interest-tag">🍪 Cookie Run Kingdom</div>
+    <div class="interest-tag">🎮 Gaming</div>
+    <div class="interest-tag">🎹 Piano</div>
+    <div class="interest-tag">📺 Cartoons</div>
+    <div class="interest-tag">🏝️ Object Shows</div>
+</div>
+                
+                <div class="social-links">
+                    <a href="https://discord.com/users/lapisyippee" class="social-link" target="_blank">
+                        <span class="emoji">💬</span> Discord: lapisyippee
+                    </a>
+                    <a href="https://www.tiktok.com/@rainbow_starcloud?_t=ZP-8vfbQStzZhX&_r=1" class="social-link" target="_blank">
+                        <span class="emoji">🎵</span> TikTok: @rainbow_starcloud
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Website owner:</strong> Grav1ty</p>
+            <p>
+                <a href="https://www.tiktok.com/@tttdanny?_t=ZP-8vfbY3MPjXr&_r=1" class="social-link" target="_blank">
+                    <span class="emoji">📱</span> TikTok: @tttdanny
+                </a>
+            </p>
+            <p>
+                <a href="https://gravitys-bio.vercel.app/" class="social-link" target="_blank">
+                    <span class="emoji">🌐</span> Grav1ty's website
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/Coolboyhi" class="social-link" target="_blank">
+                    <span class="emoji">💻</span> GitHub: Coolboyhi
+                </a>
+            </p>
+            <p><span class="emoji">📞</span> <strong>Number:</strong> +1 619-796-6302</p>
+        </div>
+    </div>
+</body>
+</html>
